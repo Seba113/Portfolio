@@ -1,0 +1,72 @@
+.proyectSection {
+    background-color: rgba(0, 0, 0, 0.781);
+    min-height: 50vh;
+    box-shadow: 0 0 13px 2px;
+    padding: 20px; /* Agrega algo de espacio alrededor */
+}
+
+.proyectSection .container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.proyectSection h3, 
+.proyectSection h4 {
+    color: #fff;
+}
+
+.proyectSection .span {
+    color: #31ffffc9;
+}
+
+.proyectSection a {
+    display: block;
+}
+
+.proyectSection a img {
+    border-radius: 5%;
+    width: 100%; 
+    height: 15vh; 
+    max-height: 20vh;
+    box-shadow: 0 0 10px #31ffffc9;
+    margin-bottom: 30px;
+}
+
+.proyectSection a img:hover {
+    box-shadow: 0 0 20px #31ffffc9;
+    transition: all 0.3s ease;
+}
+
+.stackProyects {
+    background-color: rgba(77, 74, 74, 0.356);
+    width: fit-content;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 576px) {
+    .proyectSection a img{
+        max-height: 10vh;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .proyectSection .container {
+        padding-top: 50px; 
+    }
+
+    .proyectSection h3,
+    .proyectSection h4 {
+        font-size: 1.5rem; 
+    }
+
+    .stackProyects {
+        width: auto; 
+        margin: 0 auto; 
+    }
+}

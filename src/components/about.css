@@ -1,0 +1,52 @@
+.about {
+    background-color: rgba(0, 0, 0, 0.781); /* Color de fondo */
+    padding-top: 70px; /* Espaciado superior */
+    padding-bottom: 70px; /* Espaciado inferior */
+    box-shadow: 0 0 13px 2px; /* Sombra */
+}
+
+.about .container {
+    max-width: 800px; /* Limitar el ancho de la sección */
+    width: 90%; /* Usar el 90% del ancho en pantallas más pequeñas */
+    margin: auto; /* Centrar el contenedor */
+}
+
+.about h3 {
+    color: #fff; /* Color del título */
+}
+
+strong p {
+    color: #fff; /* Color del texto en negrita */
+}
+
+.about p {
+    font-size: 17px; /* Tamaño de fuente del párrafo */
+    color: #ffffffb4; /* Color del texto con opacidad */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+}
+
+/* Estilo para el subtítulo */
+.about .span {
+    color: #31ffffc9; /* Color del subtítulo */
+    font-size: 1.5rem; /* Tamaño del subtítulo */
+    margin-bottom: 20px; /* Espacio debajo del subtítulo */
+}
+
+/* Media Queries para ajustar estilos en pantallas pequeñas */
+@media (max-width: 768px) {
+    .about .container {
+        width: 95%; /* Usar casi todo el ancho en pantallas pequeñas */
+    }
+
+    .about h3 {
+        font-size: 1.8rem; /* Tamaño del título en móviles */
+    }
+
+    .about p {
+        font-size: 16px; /* Tamaño del texto en móviles */
+    }
+
+    .about .span {
+        font-size: 1.2rem; /* Tamaño del subtítulo en móviles */
+    }
+}

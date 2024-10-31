@@ -1,0 +1,70 @@
+img {
+    max-height: 3rem;
+    border-radius: 50%;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.979);
+    max-height: 6rem;
+    box-shadow: 0 0 13px 2px;
+}
+
+.header a {
+    color: #ffffffb4;
+}
+
+.name-content {
+    flex-direction: column;
+}
+
+.name-content {
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.navbar-nav {
+    flex-direction: column; /* Apilar elementos en móviles */
+}
+
+.nav-link {
+    color: #ffffffb4; /* Color del texto del menú */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
+
+.navbar-toggler {
+    border: none; /* Sin borde en el botón de menú */
+}
+
+.navbar-toggler-icon {
+    background-color: rgba(8, 155, 160, 0.952); /* Color del ícono de menú */
+}
+
+/* Media Queries para el menú hamburguesa */
+@media (min-width: 576px) {
+    .navbar-nav {
+        flex-direction: row; /* Alinear horizontalmente en pantallas grandes */
+    }
+    .navbar-toggler {
+        display: none; /* Ocultar botón de menú en pantallas grandes */
+    }
+}
+
+/* Ajustes para mejorar la experiencia móvil */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Apilar elementos en móviles */
+        max-height: auto; /* Permitir que la altura sea flexible */
+    }
+    
+    .name-content {
+        text-align: center; /* Centrar texto en móviles */
+    }
+
+    .header a {
+        padding: 0.5rem 1rem; /* Espaciado en los enlaces */
+        display: block; /* Mostrar como bloque para mejor clicabilidad */
+    }
+}

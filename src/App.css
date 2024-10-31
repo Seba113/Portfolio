@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-color: rgba(0, 0, 0, 0.952);
+}
+
+a{
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+nav a:hover{
+  box-shadow: 0 0 20px rgba(8, 155, 160, 0.952);
+}
