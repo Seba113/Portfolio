@@ -2,6 +2,7 @@ import React from 'react';
 import ProyectCard from './ProyectCard';
 import rick from '../assets/Img/rick.png'
 import newage from '../assets/Img/newage.png'
+import app from '../assets/Img/ionicapp.png'
 import './ProyectSection.css';
 
 const ProyectSection = () => {
@@ -13,14 +14,20 @@ const ProyectSection = () => {
             link: 'https://newagelandscaping.azurewebsites.net/',
             imageSrc: newage,
             tech: 'HTML, CSS, BOOTSTRAP, JAVASCRIPT, AZZURE'
-
         },
         {
             title: 'Consumiendo Api con React',
             description: 'Este fue mi primer proyecto con React consumiendo la API de Rick y Morty para crear una wiki de personajes y mostrar su información.',
             link: 'https://seba113.github.io/1er-proyecto-api-con-React/',
             imageSrc: rick,
-            tech: 'REACT, JSX(JavaScript Syntax eXtension), CSS, BOOTSTRAP'
+            tech: 'REACT, JSX (JavaScript Syntax eXtension), CSS, BOOTSTRAP'
+        },
+        {
+            title: 'App Mobile Android con Ionic',
+            description: 'App implementada para Android pensada para padres recientes, en la cual podran crear eventos del dia a dia relacionados con su bebe para llevar un mejor control, como horarios en los que comió, durmió, cuantos pañales o biberones llevan en el día y mas.Esta desarrollada con IONIC y JavaScript y pueden ver el codigo fuente en mi github. Si quieren la apk no duden en contactarme.',
+            link: 'https://github.com/Seba113/AppMovilAndroid-CreadorDeEventos',
+            imageSrc: app,
+            tech: 'HTML, IONIC, JAVASCRIPT, CSS, ANDROID STUDIO'
         },
     ]
 

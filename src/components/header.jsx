@@ -7,7 +7,7 @@ const Header = () => {
         <>
         <header className="container-fluid mb-0 p-0 fixed-top bg-light">
     <div className="header row justify-content-between text-align-center m-0">
-        <div className="col-md-6 col-sm-3 d-flex justify-content-center align-items-center">
+        <div className="col-sm-13 col-md-5 d-flex justify-content-center align-items-center">
             <a href="#body" className="d-flex align-items-center m-1">
                 <img src={miImagen} alt="Sebastián Fernández" className="img-fluid" />
                 <div className='name-content d-flex flex-column m-3'>
@@ -18,7 +18,7 @@ const Header = () => {
                 </div>
             </a>
         </div>
-        <div className="col-md-6 col-sm-9 d-none d-sm-flex justify-content-center align-items-center">
+        <div className="col-md-7 col-sm-6 d-none d-md-flex justify-content-center align-items-center">
             <nav>
                 <a href="#" className="p-3">Home</a>
                 <a href="#proyectos" className="p-3">Proyectos</a>

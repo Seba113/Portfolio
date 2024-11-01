@@ -50,6 +50,7 @@ img {
     .navbar-toggler {
         display: none; /* Ocultar botón de menú en pantallas grandes */
     }
+    
 }
 
 /* Ajustes para mejorar la experiencia móvil */
@@ -60,7 +61,7 @@ img {
     }
     
     .name-content {
-        text-align: center; /* Centrar texto en móviles */
+        text-align: center; 
     }
 
     .header a {
